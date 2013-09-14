@@ -3,6 +3,7 @@ elgg.provide('elgg.tinymce');
 elgg.tinymce.init = function() {
     tinyMCE.init({
         selector: '.elgg-input-longtext',
+        language: elgg.get_language(),
         relative_urls : false,
         remove_script_host : false,
         document_base_url : elgg.get_site_url(),
