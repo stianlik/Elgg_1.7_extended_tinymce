@@ -26,7 +26,6 @@ if (!$tinymce_js_loaded) {
 <script language="javascript" type="text/javascript">
     tinyMCE.init({
         selector: ".mceEditor",
-        theme: "modern",
         skin : "lightgray",
         relative_urls : false,
         remove_script_host : false,
