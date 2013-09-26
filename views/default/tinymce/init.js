@@ -13,7 +13,7 @@ elgg.tinymce.init = function() {
         browser_spellcheck : true,
         toolbar: "undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | table | link image | visualblocks code",
         style_formats: [
-            { title: 'Header 1', block: 'h1' },
+            //{ title: 'Header 1', block: 'h1' },
             { title: 'Header 2', block: 'h2' },
             { title: 'Header 3', block: 'h3' },
             { title: 'Header 4', block: 'h4' },
